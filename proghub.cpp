@@ -2,7 +2,7 @@
 using namespace std;
 int main() {
     int number;
-    cout << "Insert number(1 to stop): ";
+    cout << "Insert number(5 to stop): ";
     cin >> number;
 
     while (number !=1) {
