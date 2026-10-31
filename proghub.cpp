@@ -5,6 +5,7 @@ int main() {
  double val;
  num +=3;
  ++num;
+ //cout << num;
  cout << num << endl;
  cout << ++num << endl;
  cout << num++ << endl;
