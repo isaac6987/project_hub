@@ -12,6 +12,7 @@ int main() {
     val = num % 3;
     val *=5;
     cout<< val << endl;
+ // cout << "hello" << endl;
     val==9? cout <<"True\n" :cout << "false\n";
     cout << sizeof(val) << endl;   
     return 0;
