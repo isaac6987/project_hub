@@ -1,18 +1,18 @@
-#include <iostream>
+#include <iostream>            
 using namespace std;
 int main() {
-    int number;
-    cout << "Insert number(5 to stop): ";
-    cin >> number;
-
-    while (number !=1) {
-        cout << "You entered: " << number << endl;
-
-    cout << "Insert number(1 to stop): ";
-    cin >> number;
-    }
-
-    cout << "Program stopped." << endl;
-    
+ int num =6;
+ double val;
+ num +=3;
+ ++num;
+ cout << num << endl;
+ cout << ++num << endl;
+ cout << num++ << endl;
+ cout << num << endl;
+    val = num % 3;
+    val *=5;
+    cout<< val << endl;
+    val==9? cout <<"True\n" :cout << "false\n";
+    cout << sizeof(val) << endl;   
     return 0;
-}
+ }
